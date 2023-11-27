@@ -1,0 +1,95 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #ffffff; /* Set the default font color to white */
+}
+
+header {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+#features {
+    background-image: url('2nd Body.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.feature {
+    background-color: rgba(254, 252, 250, 0.49);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    max-width: 400px;
+    width: 100%;
+}
+
+.feature h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #555;
+}
+
+.feature-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: rgba(248, 246, 244, 0.804);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.feature-button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styling for a more stylish look */
+#features h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Add more styles as needed */
